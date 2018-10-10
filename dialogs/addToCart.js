@@ -27,15 +27,18 @@ module.exports = function (bot, message, controller) {
           if (itemAdded === undefined) {
             cart.push(item)
             controller.storage.users.save({id: message.user, cart: cart})
+            bot.reply(message, itemName + ' added to cart.')
           }
           else {
             controller.storage.users.save({id: message.user, cart: cart})
+            bot.reply(message, itemName + ' added to cart.')
           }
         }
         else {
           var cart = []
           cart.push(item)
           controller.storage.users.save({id: message.user, cart: cart})
+          bot.reply(message, itemName + ' added to cart.')
         }
       })
     }
