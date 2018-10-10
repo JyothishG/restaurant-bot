@@ -8,7 +8,7 @@ module.exports = {
         'buttons': buttonList
       }
     }
-    bot.replyWithTyping(message, {
+    bot.reply(message, {
       attachment: attachment
     })
   },
@@ -22,7 +22,7 @@ module.exports = {
         'elements': cards
       }
     }
-    bot.replyWithTyping(message, {
+    bot.reply(message, {
       attachment: attachment
     })
   },
@@ -43,7 +43,7 @@ module.exports = {
         "summary": receiptInfo.summary
       }
     }
-    bot.replyWithTyping(message, {
+    bot.reply(message, {
       attachment: attachment
     })
   }
