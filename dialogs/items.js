@@ -16,6 +16,7 @@ module.exports = function (bot, message, controller) {
  
     var card = {
       'title': item.name,
+      'subtitle': 'Price: ' + item.price
       'image_url': item.image,
       'buttons': [
         {

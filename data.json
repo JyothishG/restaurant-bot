@@ -66,18 +66,21 @@
 	"items": [
       	{
         	"name": "Crispy Calamari",
+        	"price": "$12",
         	"image": "https://image.ibb.co/dv4HeU/crispy_fried_calamari_01.jpg",
         	"buttonPayload": "Crispy Calamari",
         	"quantity": 1
       	},
       	{
         	"name": "Truffle & Garlic Fries",
+        	"price": "$8",
         	"image": "https://image.ibb.co/kU1Ktp/garlic_truffle_fries.jpg",
         	"buttonPayload": "Truffle & Garlic Fries",
         	"quantity": 1
       	},
       	{
         	"name": "Beef or Turkey Meatballs",
+        	"price": "$15",
         	"image": "https://image.ibb.co/dVW8m9/meatballs.jpg",
         	"buttonPayload": "Beef or Turkey Meatballs",
         	"quantity": 1
