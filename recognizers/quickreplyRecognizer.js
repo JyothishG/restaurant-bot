@@ -1,13 +1,9 @@
 var welcome = require('../dialogs/getStarted.js')
-var showSubscriptions = require('../dialogs/showSubscriptions.js')
-var showCategories = require('../dialogs/showCategories.js')
 
 module.exports = {
   recognize: function (bot, message, controller) {
     var intents = {
-      'GetStarted': welcome,
-      'ShowSubscriptions': showSubscriptions,
-      'ShowCategories': showCategories
+      'GetStarted': welcome
     }
     if (intents.hasOwnProperty(message.quickreplyPayload)) {
       intents[message.quickreplyPayload](bot, message, controller)

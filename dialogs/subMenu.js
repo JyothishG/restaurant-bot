@@ -3,17 +3,13 @@ var data = require('../data.json')
 
 module.exports = function (bot, message, controller) {
 
-  var categories = data.categories
+  var categories = data.sub_categories
   var cards = []
 
   categories.forEach(function (category) {
     
     var postBackAction1 = JSON.stringify({
-      'action': 'ShowStories',
-      'entity': category.buttonPayload
-    })
-    var postBackAction2 = JSON.stringify({
-      'action': 'SubscribeCategory',
+      'action': 'ShowItems',
       'entity': category.buttonPayload
     })
  
@@ -23,20 +19,15 @@ module.exports = function (bot, message, controller) {
       'buttons': [
         {
           'type': 'postback',
-          'title': 'Show Stories',
+          'title': 'Show Items',
           'payload': postBackAction1
-        },
-        {
-          'type': 'postback',
-          'title': 'Subscribe',
-          'payload': postBackAction2
         }
       ]
     }
     cards.push(card)
   })
 
-  bot.replyWithTyping(message, 'Here are the types of stories we provides that you may like... 😎')
+  bot.replyWithTyping(message, 'Here are the items we provides that you may like... 😎')
   
   setTimeout(function(){
     buttonMessage.sendCard(bot, message, cards, 'horizontal')

@@ -1,83 +1,83 @@
 {
-	"categories": [
+	"menu": [
 		{
-			"name": "General News",
-			"image": "http://i68.tinypic.com/2i0epue.jpg",
-			"buttonPayload": "general"
+			"name": "Regular Menu",
+			"image": "https://image.ibb.co/fzNp9U/San_Franciso_Benedict_Menu.jpg",
+			"buttonPayload": ""
 		},
 		{
-			"name": "Business News",
-			"image": "http://i64.tinypic.com/2n852it.jpg",
-			"buttonPayload": "business"
+			"name": "Vegan",
+			"image": "https://image.ibb.co/b2bcw9/01_What_Do_Vegans_Eat_Check_Out_These_Vegan_Breakfast_Lunch_and_Dinner_Ideas_531648340_Magdanatka_760x506.jpg",
+			"buttonPayload": "VeganMenu"
 		},
 		{
-			"name": "Entertainment News",
-			"image": "http://i67.tinypic.com/161nxwl.jpg",
-			"buttonPayload": "entertainment"
+			"name": "Vegetarian",
+			"image": "https://image.ibb.co/c2j0ip/noodles.jpg",
+			"buttonPayload": "VegetarianMenu"
 		},
 		{
-			"name": "Health News",
-			"image": "http://i65.tinypic.com/zn6cf7.jpg",
-			"buttonPayload": "health"
-		},
-		{
-			"name": "Science News",
-			"image": "http://i65.tinypic.com/kdu97r.jpg",
-			"buttonPayload": "science"
-		},
-		{
-			"name": "Sports News",
-			"image": "http://i65.tinypic.com/2nty1qq.jpg",
-			"buttonPayload": "sports"
-		},
-		{
-			"name": "Technology News",
-			"image": "http://i66.tinypic.com/2v2yyv9.jpg",
-			"buttonPayload": "technology"
+			"name": "Gluten Free",
+			"image": "https://image.ibb.co/kSveb9/spanish_meatball_butter_bean_stew_0.jpg",
+			"buttonPayload": "GlutenFreeMenu"
 		}
 	],
-	"subscriptions": [
+	"sub_categories": [
+		{
+			"name": "Appetizers",
+			"image": "https://image.ibb.co/mbqHUU/fingerling_potatoes_avocado_smoked_salmon_sl.jpg",
+			"buttonPayload": "Appetizers"
+		},
+		{
+			"name": "Salads",
+			"image": "https://image.ibb.co/e4erOp/House_Salad_H_780x390.jpg",
+			"buttonPayload": "Salads"
+		},
+		{
+			"name": "Pastas",
+			"image": "https://image.ibb.co/csCp9U/pastas.jpg",
+			"buttonPayload": "Pastas"
+		},
+		{
+			"name": "Pizza",
+			"image": "https://preview.ibb.co/gZWGpU/stuffed_crust_pizza.jpg",
+			"buttonPayload": "Pizza"
+		},
+		{
+			"name": "Entrees",
+			"image": "https://image.ibb.co/nF3nUU/entree_991x364.jpg",
+			"buttonPayload": "Entrees"
+		},
+		{
+			"name": "Sides",
+			"image": "https://image.ibb.co/k9DnUU/Side_Kick_Ranking_01.jpg",
+			"buttonPayload": "Sides"
+		},
+		{
+			"name": "Beverages",
+			"image": "https://preview.ibb.co/dOR5zU/beverages.jpg",
+			"buttonPayload": "Beverages"
+		},
+		{
+			"name": "Desserts",
+			"image": "https://image.ibb.co/j6BNeU/desserts.jpg",
+			"buttonPayload": "Desserts"
+		}
+	],
+	"items": [
       	{
-        	"name": "general",
-        	"image": "http://i68.tinypic.com/2i0epue.jpg",
-        	"status": false
-
+        	"name": "Crispy Calamari",
+        	"image": "https://image.ibb.co/dv4HeU/crispy_fried_calamari_01.jpg",
+        	"buttonPayload": "CrispyCalamari"
       	},
       	{
-        	"name": "business",
-        	"image": "http://i64.tinypic.com/2n852it.jpg",
-        	"status": false
-
+        	"name": "Truffle & Garlic Fries",
+        	"image": "https://image.ibb.co/kU1Ktp/garlic_truffle_fries.jpg",
+        	"buttonPayload": "TruffleGarlicFries"
       	},
       	{
-        	"name": "entertainment",
-        	"image": "http://i67.tinypic.com/161nxwl.jpg",
-        	"status": false
-
-      	},
-      	{
-        	"name": "health",
-        	"image": "http://i65.tinypic.com/zn6cf7.jpg",
-        	"status": false
-
-      	},
-      	{
-        	"name": "science",
-        	"image": "http://i65.tinypic.com/kdu97r.jpg",
-        	"status": false
-
-      	},
-      	{
-        	"name": "sports",
-        	"image": "http://i65.tinypic.com/2nty1qq.jpg",
-        	"status": false
-
-      	},
-      	{
-        	"name": "technology",
-        	"image": "http://i66.tinypic.com/2v2yyv9.jpg",
-        	"status": false
-
+        	"name": "Beef or Turkey Meatballs",
+        	"image": "https://image.ibb.co/dVW8m9/meatballs.jpg",
+        	"buttonPayload": "BeefOrTurkeyMeatballs"
       	}
     ]
 }
