@@ -67,17 +67,20 @@
       	{
         	"name": "Crispy Calamari",
         	"image": "https://image.ibb.co/dv4HeU/crispy_fried_calamari_01.jpg",
-        	"buttonPayload": "CrispyCalamari"
+        	"buttonPayload": "Crispy Calamari",
+        	"quantity": 1
       	},
       	{
         	"name": "Truffle & Garlic Fries",
         	"image": "https://image.ibb.co/kU1Ktp/garlic_truffle_fries.jpg",
-        	"buttonPayload": "TruffleGarlicFries"
+        	"buttonPayload": "Truffle & Garlic Fries",
+        	"quantity": 1
       	},
       	{
         	"name": "Beef or Turkey Meatballs",
         	"image": "https://image.ibb.co/dVW8m9/meatballs.jpg",
-        	"buttonPayload": "BeefOrTurkeyMeatballs"
+        	"buttonPayload": "Beef or Turkey Meatballs",
+        	"quantity": 1
       	}
     ]
 }
