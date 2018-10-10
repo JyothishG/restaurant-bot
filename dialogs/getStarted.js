@@ -1,4 +1,3 @@
-var newsApi = require('../services/newsApi.js')
 var buttonMessage = require('../services/sendButtonMessage.js')
 var userProfile = require('../services/userProfile.js')
 var data = require('../data.json')
