@@ -1,0 +1,83 @@
+{
+	"categories": [
+		{
+			"name": "General News",
+			"image": "http://i68.tinypic.com/2i0epue.jpg",
+			"buttonPayload": "general"
+		},
+		{
+			"name": "Business News",
+			"image": "http://i64.tinypic.com/2n852it.jpg",
+			"buttonPayload": "business"
+		},
+		{
+			"name": "Entertainment News",
+			"image": "http://i67.tinypic.com/161nxwl.jpg",
+			"buttonPayload": "entertainment"
+		},
+		{
+			"name": "Health News",
+			"image": "http://i65.tinypic.com/zn6cf7.jpg",
+			"buttonPayload": "health"
+		},
+		{
+			"name": "Science News",
+			"image": "http://i65.tinypic.com/kdu97r.jpg",
+			"buttonPayload": "science"
+		},
+		{
+			"name": "Sports News",
+			"image": "http://i65.tinypic.com/2nty1qq.jpg",
+			"buttonPayload": "sports"
+		},
+		{
+			"name": "Technology News",
+			"image": "http://i66.tinypic.com/2v2yyv9.jpg",
+			"buttonPayload": "technology"
+		}
+	],
+	"subscriptions": [
+      	{
+        	"name": "general",
+        	"image": "http://i68.tinypic.com/2i0epue.jpg",
+        	"status": false
+
+      	},
+      	{
+        	"name": "business",
+        	"image": "http://i64.tinypic.com/2n852it.jpg",
+        	"status": false
+
+      	},
+      	{
+        	"name": "entertainment",
+        	"image": "http://i67.tinypic.com/161nxwl.jpg",
+        	"status": false
+
+      	},
+      	{
+        	"name": "health",
+        	"image": "http://i65.tinypic.com/zn6cf7.jpg",
+        	"status": false
+
+      	},
+      	{
+        	"name": "science",
+        	"image": "http://i65.tinypic.com/kdu97r.jpg",
+        	"status": false
+
+      	},
+      	{
+        	"name": "sports",
+        	"image": "http://i65.tinypic.com/2nty1qq.jpg",
+        	"status": false
+
+      	},
+      	{
+        	"name": "technology",
+        	"image": "http://i66.tinypic.com/2v2yyv9.jpg",
+        	"status": false
+
+      	}
+    ]
+}
