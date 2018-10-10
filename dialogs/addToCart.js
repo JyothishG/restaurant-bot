@@ -1,5 +1,6 @@
 var buttonMessage = require('../services/sendButtonMessage.js')
 var data = require('../data.json')
+var typing = require('../services/typing.js')
 
 module.exports = function (bot, message, controller) {
 
@@ -27,20 +28,41 @@ module.exports = function (bot, message, controller) {
           if (itemAdded === undefined) {
             cart.push(item)
             controller.storage.users.save({id: message.user, cart: cart})
-            bot.reply(message, itemName + ' added to cart.')
+            sendQuickReply (bot, message, itemName + ' added to cart.')
           }
           else {
             controller.storage.users.save({id: message.user, cart: cart})
-            bot.reply(message, itemName + ' added to cart.')
+            sendQuickReply (bot, message, itemName + ' added to cart.')
           }
         }
         else {
           var cart = []
           cart.push(item)
           controller.storage.users.save({id: message.user, cart: cart})
-          bot.reply(message, itemName + ' added to cart.')
+          sendQuickReply (bot, message, itemName + ' added to cart.')
         }
       })
     }
   })
+}
+
+function sendQuickReply (bot ,message, replyText) {
+  var reply = [
+    {
+      "content_type": "text",
+      "title": 'Back to Items',
+      "payload": 'ShowItems'
+    },
+    {
+      "content_type": "text",
+      "title": 'My Cart',
+      "payload": 'ShowCart'
+    }
+  ]
+  var quickReplyAttachment = {
+    'text': replyText,
+    'quick_replies': reply
+  }
+  bot.reply(message, quickReplyAttachment)
+
 }

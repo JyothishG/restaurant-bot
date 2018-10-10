@@ -1,5 +1,6 @@
 var buttonMessage = require('../services/sendButtonMessage.js')
 var data = require('../data.json')
+var typing = require('../services/typing.js')
 
 module.exports = function (bot, message, controller) {
 
@@ -27,9 +28,10 @@ module.exports = function (bot, message, controller) {
     cards.push(card)
   })
 
-  bot.replyWithTyping(message, 'Here are the items we provides that you may like... 😎')
-  
+  bot.reply(message, 'Here are the items we provides that you may like... 😎')
+  typing.sendTyping(bot, message)
+
   setTimeout(function(){
     buttonMessage.sendCard(bot, message, cards, 'horizontal')
-  }, 2000)
+  }, 1000)
 }

@@ -43,7 +43,7 @@ module.exports = function (bot, message, controller) {
     
     setTimeout(function(){
       buttonMessage.sendCard(bot, message, cards, 'horizontal')
-    }, 2000)
+    }, 1000)
 
   })
 }
