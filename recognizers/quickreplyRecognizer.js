@@ -13,7 +13,8 @@ module.exports = {
     }
     if (intents.hasOwnProperty(message.quickreplyPayload)) {
       intents[message.quickreplyPayload](bot, message, controller)
-    } else {
+    } 
+    else {
       var messagePayload = JSON.parse(message.quickreplyPayload)
       if (intents.hasOwnProperty(messagePayload.action)) {
         intents[messagePayload.action](bot, message, controller)
